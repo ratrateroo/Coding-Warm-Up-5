@@ -25,3 +25,30 @@ header .logo {
     letter-spacing: 2px;
     font-weight: 700;
 }
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    padding: 5px 10px;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+header ul li a.active,
+header ul li a:hover {
+    background: #205aff;
+}
+
+.toggle {
+    display: none;
+}
